@@ -4,7 +4,7 @@ class Shape {
 public:
     int width;
     int height;
-	Shape(int width, int height) {
+	Shape() {
         cout<<"Enter Width for your Shape: ";
         cin>>this->width;
         cout<<"Enter Height for your Shape: ";
